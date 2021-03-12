@@ -1,0 +1,48 @@
+Package: bmenu
+Version: 0rolling
+Architecture: all
+Essential: no
+Maintainer: Bashelled
+Installed-Size: 1024
+Depends: zsh
+Filename: ./bmenu-rolling.deb
+Size: 10880
+MD5sum: a697b1ecc941d366e9d4616f6eca12d2
+SHA1: bd8f1f8c4237f385229d0cba0fb9c4c67270d9de
+SHA256: 0bbb0e00691a04ecf3e676b08af88fbdf267c1e4d5f28176d4706c9f136c1f6f
+Section: misc
+Priority: optional
+Description: Optimization service, ported to Debian from Arch (-based systems)
+
+Package: yazt
+Version: 1.1alpha1
+Architecture: all
+Essential: no
+Maintainer: Bashelled
+Installed-Size: 1024
+Depends: zsh
+Filename: ./yazt-1.1alpha1.deb
+Size: 36648
+MD5sum: 83d15c312b731f329b24657e26040e92
+SHA1: 688ab0a9575f1e1ada1b203e45e4ad4bedbff5d9
+SHA256: f2696758cf9cb5f3315fc2f40617c052672366c434d67d7bda6e6e92803fa260
+Section: shells
+Priority: optional
+Description: A theme and plugin manager for zsh.
+
+Package: yazt-yabt
+Version: 0.1
+Architecture: all
+Essential: no
+Maintainer: Bashelled
+Installed-Size: 1024
+Depends: bash
+Filename: ./yazt-yabt-0.1.deb
+Size: 37976
+MD5sum: 79a865ed188ba9095ec0ed3c97959b39
+SHA1: 041271d1e5ce3d0e7550700f0cf8a263e428c919
+SHA256: cbea55f5c13c05f7920bb738d4c692b19e3033509911a99f4bdf23b968de734c
+Section: shells
+Priority: optional
+Description: The Yazt themer, optimized and ported to Bash.
+
