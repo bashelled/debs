@@ -30,19 +30,19 @@ Section: shells
 Priority: optional
 Description: A theme and plugin manager for zsh.
 
-Package: yazt-yabt
-Version: 0.1
+Package: yazt-termux
+Version: 1.1alpha1
 Architecture: all
 Essential: no
 Maintainer: Bashelled
 Installed-Size: 1024
-Depends: bash
-Filename: ./yazt-yabt-0.1.deb
-Size: 37976
-MD5sum: 79a865ed188ba9095ec0ed3c97959b39
-SHA1: 041271d1e5ce3d0e7550700f0cf8a263e428c919
-SHA256: cbea55f5c13c05f7920bb738d4c692b19e3033509911a99f4bdf23b968de734c
+Depends: zsh
+Filename: ./yazt-termux.deb
+Size: 36792
+MD5sum: 7af3202b559f3dac3e13c1789ca5ea08
+SHA1: ef50be2d85085fe1dcd189fe3539059c7501c303
+SHA256: f4f86d9a1d58926a5a8857c74ef1c2a64b2a364ce6344beb400cfc6f0a8445b5
 Section: shells
 Priority: optional
-Description: The Yazt themer, optimized and ported to Bash.
+Description: Yazt, for Termux. (Installs to (Termux Root)/usr/etc/yazt instead of /opt/yazt) DO NOT USE ON COMPUTERS!
 
